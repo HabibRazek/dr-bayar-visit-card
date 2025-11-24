@@ -31,9 +31,11 @@ export default function Home() {
               <Image
                 src="/dr-mourad-bayar.jpg"
                 alt="Dr. BAYAR Mourad"
-                fill
-                className="object-cover"
+                width={160}
+                height={160}
+                className="object-cover w-full h-full"
                 priority
+                unoptimized
               />
             </div>
           </div>
@@ -154,8 +156,8 @@ export default function Home() {
                 </div>
                 <div className="flex-1">
                   <p className="text-sm text-gray-500 mb-1">GSM</p>
-                  <a href="tel:29402212" className="text-gray-900 hover:text-blue-900 transition-colors">
-                    29 402 212
+                  <a href="tel:20239567" className="text-gray-900 hover:text-blue-900 transition-colors">
+                    20 239 567
                   </a>
                 </div>
               </div>
@@ -217,11 +219,11 @@ export default function Home() {
                   size="lg"
                   className="bg-blue-900 text-white font-normal hover:bg-blue-800 h-14"
                 >
-                  <a href="tel:29402212" className="flex items-center justify-center">
+                  <a href="tel:20239567" className="flex items-center justify-center">
                     <Phone className="mr-2 h-5 w-5" />
                     <div className="text-left">
                       <div className="text-xs opacity-80">GSM</div>
-                      <div>29 402 212</div>
+                      <div>20 239 567</div>
                     </div>
                   </a>
                 </Button>
