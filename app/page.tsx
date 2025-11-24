@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { Phone, MapPin } from 'lucide-react';
+import { ContactForm } from '@/components/contact-form';
 
 export default function Home() {
   return (
@@ -249,6 +250,11 @@ export default function Home() {
               </Button>
             </CardContent>
           </Card>
+        </div>
+
+        {/* Contact Form Section */}
+        <div className="max-w-2xl mx-auto mt-16">
+          <ContactForm />
         </div>
 
         {/* Footer */}
